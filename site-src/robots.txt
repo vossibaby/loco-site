@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vossibaby.github.io/loco-site/sitemap.xml
