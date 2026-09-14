@@ -16,4 +16,4 @@ python3 -m http.server 8080 --directory site-src
 - `/support.html` — support and troubleshooting
 - `/delete-data.html` — deletion and revocation instructions
 
-The repository deploys to GitHub Pages from the `main` branch through `.github/workflows/deploy-pages.yml`.
+The public GitHub Pages deployment is served from the `gh-pages` branch. The `main` branch contains the editable source and the `dist/` output used for Workers/Sites publishing.
