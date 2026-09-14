@@ -27,10 +27,7 @@ a { color: inherit; }
 header { position: sticky; top: 0; z-index: 5; backdrop-filter: blur(18px); background: rgba(16,11,13,.78); border-bottom: 1px solid var(--line); }
 .nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700; font-size: 18px; }
-.mark { width: 30px; height: 30px; border-radius: 10px; background: var(--red); position: relative; box-shadow: 0 8px 28px rgba(255,75,62,.22); }
-.mark:before, .mark:after { content: ''; position: absolute; background: #160d0f; border-radius: 2px; }
-.mark:before { width: 12px; height: 3px; left: 9px; top: 9px; transform: rotate(-25deg); }
-.mark:after { width: 12px; height: 3px; left: 9px; top: 17px; transform: rotate(25deg); }
+.mark { width: 30px; height: 30px; display: block; flex: 0 0 30px; border-radius: 50%; object-fit: cover; background: #080708; box-shadow: 0 8px 28px rgba(255,75,62,.22); }
 nav { display: flex; align-items: center; gap: 22px; color: var(--muted); font-size: 14px; }
 nav a { text-decoration: none; }
 nav a:hover, nav a:focus-visible { color: var(--ink); }
